@@ -1,0 +1,9 @@
+{
+    "python.analysis.extraPaths": [
+        "/Users/cnaccio/QuantConnect/Charles Naccio/Library/CapitalMastery"
+    ],
+    "python.autoComplete.extraPaths": [
+        "/Users/cnaccio/QuantConnect/Charles Naccio/Library/CapitalMastery"
+    ]
+
+}
