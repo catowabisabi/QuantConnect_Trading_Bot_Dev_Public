@@ -1,0 +1,11 @@
+{
+    "user-id": "0",
+    "api-token": "",
+    "data-folder": "data",
+    "engine-version": "latest",
+    "research-image": "quantconnect/research:latest",
+    "default-environment": "default",
+    "live-brokerage": "Paper Trading",
+    "data-provider": "QuantConnect",
+    "author": "QuantConnect User"
+} 

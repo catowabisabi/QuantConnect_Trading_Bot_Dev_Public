@@ -1,0 +1,14 @@
+version: '3.8'
+services:
+  lean:
+    image: quantconnect/lean:latest
+    container_name: lean_engine
+    volumes:
+      - ./:/app
+      - ./data:/data
+    working_dir: /app
+    ports:
+      - "5678:5678"
+    environment:
+      - QC_USER_ID=${QC_USER_ID}
+      - QC_API_TOKEN=${QC_API_TOKEN} 

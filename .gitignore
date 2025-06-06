@@ -1,0 +1,21 @@
+# Ignore all log files
+*.log
+
+# Ignore all backtesting and live trading output
+/backtests/
+/live/
+
+# Ignore all data
+/data/*
+!/data/.gitignore
+
+# Ignore all IDE specific files
+.idea/
+.vscode/
+*.suo
+*.user
+*.sln.docstates
+
+# Ignore compiled python files
+*.pyc
+__pycache__/ 
